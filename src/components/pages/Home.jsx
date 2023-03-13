@@ -1,9 +1,10 @@
-
+import { Header } from "../header/Header";
 
 export function Home () {
     return (
         <div>
-            <div className='container mx-auto mt-16 w-3/5'>
+            <Header />
+            <div className='container mt-16'>
                 <div className='text-2xl text-center'>A little about myself</div>
                 <div>I tutor mostly middle and high school students in math and physics, including AP Calculus, AP Physics, and Math SAT Prep. I teach in-person in the Canton MA area and virtually via Zoom. 
                 <br></br>

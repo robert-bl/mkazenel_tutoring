@@ -3,10 +3,10 @@ import { testimonialsContent } from '../../content/testimonials';
 
 export function Testimonials () {
     return (
-        <div>
+        <div className='mt-24'>
             <div>Testimonials</div>
-            {testimonialsContent.map((quote, i) =>
-                <Quote key={i} testimonial={quote}/>
+            {testimonialsContent.map((testimonial, i) =>
+                <Quote key={i} testimonial={testimonial}/>
             )}
         </div>
     );
