@@ -1,6 +1,6 @@
 export const testimonialsContent = [
     {
-        quote: <div>"Michael took the time to go through each step with me."`</div>,
+        quote: <div>"Michael took the time to go through each step with me."</div>,
         text: <div>"I was struggling a lot with algebra in school and Michael was able to teach me in a way that helped me finally understand the concepts that I couldn't figure out for so long. Michael took the time to go through each step with me until I knew how to do it on my own.
         <br/><br/>
         One of the things that stuck most with me is when we were doing ellipses and Michael compared them to the Whispering Gallery in Chicago. The connection between the two helped me deepen my understanding of ellipses and helped my brain conceptualize a topic that was once impossible for me to understand."</div>,

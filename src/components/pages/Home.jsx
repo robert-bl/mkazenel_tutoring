@@ -1,4 +1,6 @@
 import { Header } from "../header/Header";
+import { QuoteCarousel } from "../carousel/QuoteCarousel";
+
 
 export function Home () {
     return (
@@ -9,7 +11,12 @@ export function Home () {
                 <div>I tutor mostly middle and high school students in math and physics, including AP Calculus, AP Physics, and Math SAT Prep. I teach in-person in the Canton MA area and virtually via Zoom. 
                 <br></br>
                 <br></br>
-                I enjoy sharing with students my enthusiasm for math and physics and helping students improve their skill and confidence.</div>
+                I enjoy sharing with students my enthusiasm for math and physics and helping students improve their skill and confidence.
+                </div>
+
+                <QuoteCarousel />
+
+
                 <div className='text-red-600'>Tutoring Sevices Link</div>
                 <div className='text-red-600'>About Me Link</div>
                 <div className='text-2xl text-center'>Testimonials</div>
