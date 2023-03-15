@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import { Contact } from './Contact';
 import { AboutMe } from './AboutMe'
+import { EmailConfirm } from './EmailConfirm';
 import { Home } from './Home';
 import ScrollToTop from '../navigation/ScrollToTop';
 import { Testimonials } from './Testimonials';
@@ -19,6 +20,7 @@ export function Main () {
                     <Route path='/testimonials' element={<Testimonials/>}/>
                     <Route path='/about-me' element={<AboutMe/>}/>
                     <Route path='/contact' element={<Contact/>} />
+                    <Route path='/email-sent' element={<EmailConfirm/>}/>
                 </Routes>
             </ScrollToTop>
         </div>

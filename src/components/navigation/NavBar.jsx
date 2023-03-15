@@ -24,7 +24,7 @@ export function NavBar () {
     },[])
 
 
-    let navStyling = `flex justify-between fixed top-0 w-screen ${navScrolled === true ? 'text-black border-black bg-white' : 'text-white border-white bg-black'} transition-colors duration-1000 p-4 z-10`
+    let navStyling = `flex justify-between fixed top-0 w-screen ${navScrolled === true ? 'text-black border-black bg-white' : 'text-white border-white bg-black'} border-b-2 transition-colors duration-1000 p-4 z-10`
 
     return (
         <div className={navStyling}>

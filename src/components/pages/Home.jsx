@@ -21,8 +21,8 @@ export function Home () {
                 <QuoteCarousel />
 
                 <div className='flex justify-between'>
+                    <Link to='/tutoring' className={linkStyle}>My tutoring services and philosophy</Link>
                     <Link to='/testimonials' className={linkStyle}>See more Testimonials</Link>
-                    <Link to='/tutoring' className={linkStyle}>My tutoring philosophy</Link>
                     <Link to='/about-me' className={linkStyle}>Learn more about me</Link>
 
                 </div>
