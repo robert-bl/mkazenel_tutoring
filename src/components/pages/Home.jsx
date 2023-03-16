@@ -4,9 +4,14 @@ import { Header } from "../header/Header";
 import { QuoteCarousel } from "../carousel/QuoteCarousel";
 import { Contact } from "./Contact";
 
-let linkStyle = 'h-[30vw] md:h-[20vw] h-[30vw] md:w-[20vw] m-2 bg-gray-300'
+import tutoring from '../../assets/tutoring.png'
+
+
 
 export function Home () {
+
+    let linkStyle = 'w-[90vw] md:w-[20vw] aspect-square m-2 bg-gray-300 text-5xl md:text-xl xl:text-4xl p-2'
+
     return (
         <div>
             <Header />
@@ -20,14 +25,12 @@ export function Home () {
 
                 <QuoteCarousel />
 
-                <div className='flex justify-between'>
-                    <Link to='/tutoring' className={linkStyle}>My tutoring services and philosophy</Link>
-                    <Link to='/testimonials' className={linkStyle}>See more Testimonials</Link>
-                    <Link to='/about-me' className={linkStyle}>Learn more about me</Link>
-
+                <div className='flex flex-col md:flex-row justify-between'>
+                    <Link to='/tutoring' className='w-[90vw] md:w-[20vw] aspect-square m-2 bg-gray-300 text-5xl md:text-xl xl:text-4xl p-2 bg-tutoring bg-center bg-cover bg-no-repeat text-white rounded-md font-bold duration-200 hover:brightness-75'>Tutoring<br/>Services<br/>and<br/>My Teaching<br/>Philosophy</Link>
+                    <Link to='/testimonials' className={linkStyle}>More<br/>Testimonials</Link>
+                    <Link to='/about-me' className='w-[90vw] md:w-[20vw] aspect-square m-2 bg-gray-300 text-5xl md:text-xl xl:text-4xl p-2 bg-about-me-portrait bg-center bg-cover bg-no-repeat text-white rounded-md font-bold duration-200 hover:brightness-75'>About Me</Link>
                 </div>
-
-                <div className='text-2xl text-center'>Get In Touch</div>
+                <div className='my-16'></div>
                 <Contact />
             </div>
         </div>

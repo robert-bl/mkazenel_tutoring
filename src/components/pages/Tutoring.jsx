@@ -3,7 +3,7 @@ import tutoring from '../../assets/tutoring.png'
 export function Tutoring () {
     return (
         <div>
-            <div>Tutoring</div>
+            <div className='text-2xl text-center'>Tutoring</div>
             <div className='grid grid-cols-2 m-4'>
                 <div className='mx-auto px-2'>
                     <img src={tutoring}/>

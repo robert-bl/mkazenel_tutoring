@@ -5,7 +5,7 @@ import { NavBar } from "./components/navigation/NavBar";
 function App() {
 
   return (
-    <div className="App">
+    <div className="font-roboto">
       <NavBar />
       <Main />
     </div>

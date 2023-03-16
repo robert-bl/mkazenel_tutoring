@@ -29,7 +29,7 @@ module.exports = {
         'fade-in-right': {
             '0%': {
               opacity: '0',
-              transform: 'translateX(-20px)'
+              transform: 'translateX(-80px)'
             },
             '100%': {
               opacity: '1',
@@ -53,6 +53,13 @@ module.exports = {
         'fade-in-down': 'fade-in-down 0.5s ease-out',
         'fade-in-right': 'fade-in-right 1s ease-out',
         'fade-in-left': 'fade-in-left 1s ease-out',
+      },
+      backgroundImage: {
+        'tutoring': "url('/src/assets/tutoring.png')",
+        'about-me-portrait': "url('/src/assets/michael_running_portrait.png')"
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
       }
     },
   },
